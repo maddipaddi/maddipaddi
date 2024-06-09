@@ -25,7 +25,7 @@
 
 </details>
 
-Check out my [portfolio](sletteberg.com)(WIP)🐸
+Check out my [portfolio](https://sletteberg.com)(WIP)🐸
 
 <!---
 maddipaddi/maddipaddi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
