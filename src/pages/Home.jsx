@@ -1,3 +1,5 @@
+import Bookshelf from "../components/Bookshelf";
+
 export default function Home() {
-  return <h1>This is the home</h1>;
+  return <Bookshelf />;
 }
