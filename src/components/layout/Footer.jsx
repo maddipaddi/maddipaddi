@@ -1,3 +1,7 @@
 export default function Footer() {
-  return <h1>This is the footer</h1>;
+  return (
+    <footer className="bg-primary p-6">
+      <p>&copy; {new Date().getFullYear()} Madelen Sletteberg</p>
+    </footer>
+  );
 }
