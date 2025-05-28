@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -6,12 +6,13 @@
   --color-secondary: #594d3c;
   --color-accent: #1f3b11;
   --color-background: #fff7d3;
-  --font-accent: "Montserrat", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+  --font-accent: "Playfair Display", serif;
+  --font-body: "Roboto", sans-serif;
 }
 
 :root {
-  font-family: "Inter", system-ui, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", system-ui, Helvetica, Arial, sans-serif;
 }
 
 html,
