@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import HoverableShelfItem from "./HoverableShelfItem";
 
 export default function Bookshelf() {
   return (
@@ -24,13 +25,13 @@ export default function Bookshelf() {
             alt="Decorated bookspines in earth tones."
             className="h-32 object-contain translate-y-6 hidden md:flex"
           />
-          <Link to="/about">
-            <img
-              src="/assets/feminine-bust-ChatGPT.png"
-              alt="Feminine, cream-colored bust."
-              className="h-32 object-contain translate-y-4"
-            />
-          </Link>
+          <HoverableShelfItem
+            to="/about"
+            imgSrc="/assets/feminine-bust-ChatGPT.png"
+            alt="Feminine, cream-colored bust."
+            label="About me"
+            translate="translate-y-4"
+          />
         </div>
 
         {/* Shelf 2 */}
@@ -53,14 +54,13 @@ export default function Bookshelf() {
             alt="Old tomey bronze microscope."
             className="h-32 object-contain translate-y-4 hidden md:flex"
           />
-          <Link to="/resume">
-            <img
-              src="/assets/typewriter-ChatGPT.png"
-              alt="Brown typewriter with a paper loaded."
-              className="h-32 object-contain translate-y-6"
-            />
-          </Link>
-
+          <HoverableShelfItem
+            to="/resume"
+            imgSrc="/assets/typewriter-ChatGPT.png"
+            alt="Brown typewriter with a paper loaded."
+            label="Resume"
+            translate="translate-y-8"
+          />
           <img
             src="/assets/lantern-ChatGPT.png"
             alt="Victorian looking gothic lantern."
@@ -86,13 +86,13 @@ export default function Bookshelf() {
             alt="Books laying down with a fossil on top."
             className="h-32 object-contain translate-y-4 hidden md:flex"
           />
-          <Link to="/contact">
-            <img
-              src="/assets/rotary-phone-ChatGPT.png"
-              alt="Old timey dark brown rotary phone."
-              className="h-32 object-contain translate-y-3"
-            />
-          </Link>
+          <HoverableShelfItem
+            to="/contact"
+            imgSrc="/assets/rotary-phone-ChatGPT.png"
+            alt="Old timey dark brown rotary phone."
+            label="Contact me"
+            translate="translate-y-8"
+          />
           <img
             src="/assets/plant-3-ChatGPT.png"
             alt="Green plant in a terracotta pot."
