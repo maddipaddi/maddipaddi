@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function Bookshelf() {
   return (
     <article className="mx-auto font-heading text-2xl font-medium tracking-wide">
@@ -5,7 +7,7 @@ export default function Bookshelf() {
       <p className="text-center ">Browse the bookshelf to learn more.</p>
       <div className="grid gap-y-8 p-8 mt-8 bg-primary rounded-lg shadow-2xl max-w-4xl border-b-6 border-bookshelf-border">
         {/* Shelf 1 */}
-        <div className="bg-secondary grid grid-cols-4 border-t-6 border-bookshelf-border">
+        <div className="bg-secondary grid grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
           <img
             src="/assets/bookspines-3-ChatGPT.png"
             className="h-32 object-contain translate-y-4"
@@ -16,37 +18,43 @@ export default function Bookshelf() {
             alt="Hanging plant in a terracotta pot."
             className="h-32 object-contain translate-y-8"
           />
+
           <img
             src="/assets/bookspines-ChatGPT.png"
             className="h-32 object-contain translate-y-4"
             alt="Decorated bookspines in earth tones."
           />
-          <img
-            src="/assets/feminine-bust-ChatGPT.png"
-            alt="Feminine, cream-colored bust."
-            className="h-32 object-contain translate-y-4"
-          />
+          <Link to="/about">
+            <img
+              src="/assets/feminine-bust-ChatGPT.png"
+              alt="Feminine, cream-colored bust."
+              className="h-32 object-contain translate-y-4"
+            />
+          </Link>
         </div>
 
         {/* Shelf 2 */}
-        <div className="bg-secondary grid grid-cols-3 border-t-6 border-bookshelf-border">
+        <div className="bg-secondary grid grid-cols-3 border-t-6 border-b-2 border-bookshelf-border">
           <div className="p-12 m-4 bg-primary">Project 1</div>
           <div className="p-12 m-4 bg-primary">Project 2</div>
           <div className="p-12 m-4 bg-primary">Project 3</div>
         </div>
 
         {/* Shelf 3 */}
-        <div className="bg-secondary grid grid-cols-4 border-t-6 border-bookshelf-border">
+        <div className="bg-secondary grid grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
           <img
             src="/assets/microscope-ChatGPT.png"
             className="h-32 object-contain translate-y-4"
             alt="Old tomey bronze microscope."
           />
-          <img
-            src="/assets/typewriter-ChatGPT.png"
-            className="h-32 object-contain translate-y-6"
-            alt="Brown typewriter with a paper loaded."
-          />
+          <Link to="/resume">
+            <img
+              src="/assets/typewriter-ChatGPT.png"
+              className="h-32 object-contain translate-y-6"
+              alt="Brown typewriter with a paper loaded."
+            />
+          </Link>
+
           <img
             src="/assets/lantern-ChatGPT.png"
             className="h-32 object-contain translate-y-3"
@@ -60,7 +68,7 @@ export default function Bookshelf() {
         </div>
 
         {/* Shelf 4 */}
-        <div className="bg-secondary grid grid-cols-4 border-t-6 border-bookshelf-border">
+        <div className="bg-secondary grid grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
           <img
             src="/assets/bookspines-4-ChatGPT.png"
             className="h-32 object-contain translate-y-4"
@@ -72,11 +80,13 @@ export default function Bookshelf() {
             className="h-32 object-contain translate-y-4"
             alt="Books laying down with a fossil on top."
           />
-          <img
-            src="/assets/rotary-phone-ChatGPT.png"
-            className="h-32 object-contain translate-y-3"
-            alt="Old timey dark brown rotary phone."
-          />
+          <Link to="/contact">
+            <img
+              src="/assets/rotary-phone-ChatGPT.png"
+              className="h-32 object-contain translate-y-3"
+              alt="Old timey dark brown rotary phone."
+            />
+          </Link>
           <img
             src="/assets/plant-3-ChatGPT.png"
             className="h-32 object-contain translate-y-4"
