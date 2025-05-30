@@ -44,21 +44,21 @@ export default function Bookshelf() {
             imageSrc={ClicketyCartLogo}
             alt="Shopping cart racing over the words 'Clickety Cart'"
             description="This is not the actual description. We are just checking the visuals. Replace later."
-            to=""
+            to="/projects/clicketycart"
           />
           <ProjectCard
             title="Auction House"
             imageSrc={AuctionHouseLogo}
             alt="Diamond shaped logo with the words 'Auction House' to the right."
             description="This is not the actual description. We are just checking the visuals. Replace later."
-            to=""
+            to="/projects/auctionhouse"
           />
           <ProjectCard
             title="Holidaze"
             imageSrc={HolidazeLogo}
             alt="Log cabin with a smoking pipe over the words 'Holidaze'."
             description="This is not the actual description. We are just checking the visuals. Replace later."
-            to=""
+            to="/projects/holidaze"
           />
         </div>
 
