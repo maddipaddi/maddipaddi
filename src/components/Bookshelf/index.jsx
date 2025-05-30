@@ -1,5 +1,8 @@
 import HoverableShelfItem from "./HoverableShelfItem";
 import ProjectCard from "../ProjectCard";
+import AuctionHouseLogo from "../../assets/AH-logo-dark.png";
+import HolidazeLogo from "../../assets/FH-logo-dark.png";
+import ClicketyCartLogo from "../../assets/CC-logo.png";
 
 export default function Bookshelf() {
   return (
@@ -37,24 +40,24 @@ export default function Bookshelf() {
         {/* Shelf 2 */}
         <div className="bg-secondary grid grid-cols-1 md:grid-cols-3 border-t-6 border-b-2 border-bookshelf-border">
           <ProjectCard
-            title="Auction House"
-            imageSrc="null"
-            alt=""
-            description="hurrdurr"
+            title="ClicketyCart"
+            imageSrc={ClicketyCartLogo}
+            alt="Shopping cart racing over the words 'Clickety Cart'"
+            description="This is not the actual description. We are just checking the visuals. Replace later."
             to=""
           />
           <ProjectCard
-            title="ClicketyCart"
-            imageSrc="null"
-            alt=""
-            description=""
+            title="Auction House"
+            imageSrc={AuctionHouseLogo}
+            alt="Diamond shaped logo with the words 'Auction House' to the right."
+            description="This is not the actual description. We are just checking the visuals. Replace later."
             to=""
           />
           <ProjectCard
             title="Holidaze"
-            imageSrc="null"
-            alt=""
-            description=""
+            imageSrc={HolidazeLogo}
+            alt="Log cabin with a smoking pipe over the words 'Holidaze'."
+            description="This is not the actual description. We are just checking the visuals. Replace later."
             to=""
           />
         </div>
