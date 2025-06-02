@@ -1,8 +1,12 @@
+import CCLogo from "../assets/CC-logo.png";
+import AHLogo from "../assets/AH-logo-dark.png";
+import FHLogo from "../assets/FH-logo-dark.png";
+
 export const projects = [
   {
     id: "clicketycart",
     title: "ClicketyCart",
-    icon: "/assets/CC-logo.png",
+    icon: CCLogo,
     description:
       "An e-commerce prototype focused on accessibility and performance.",
     longText: "This project was built using React and Tailwind...",
@@ -13,7 +17,7 @@ export const projects = [
   {
     id: "auctionhouse",
     title: "Auction House",
-    icon: "/assets/AH-logo-dark.png",
+    icon: AHLogo,
     description:
       "An e-commerce prototype focused on accessibility and performance.",
     longText: "This project was built using React and Tailwind...",
@@ -24,7 +28,7 @@ export const projects = [
   {
     id: "holidaze",
     title: "Holidaze",
-    icon: "/assets/FH-logo-dark.png",
+    icon: FHLogo,
     description:
       "An e-commerce prototype focused on accessibility and performance.",
     longText: "This project was built using React and Tailwind...",

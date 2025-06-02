@@ -11,7 +11,7 @@ export default function SingleProjectPage() {
     <article className="max-w-4xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-heading mb-4">{project.title}</h1>
       <img
-        src={`${project.icon}`}
+        src={project.icon}
         alt={`${project.title} logo`}
         className="w-32 mb-4"
       />
