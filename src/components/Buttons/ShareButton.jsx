@@ -7,7 +7,7 @@ export default function ShareButton() {
   const handleCopy = () => {
     navigator.clipboard.writeText(window.location.href).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // reset after 2s
+      setTimeout(() => setCopied(false), 2000);
     });
   };
 
@@ -15,7 +15,7 @@ export default function ShareButton() {
     <button
       onClick={handleCopy}
       aria-label="Copy page link"
-      className="flex items-center gap-2 px-4 py-2 bg-accent rounded cursor-pointer"
+      className="flex items-center gap-2 px-4 py-2 bg-accent rounded cursor-pointer shadow-lg font-medium"
     >
       {copied ? "Copied!" : "Share link to this project"}
       {copied ? <ClipboardCheck size={20} /> : <Clipboard size={20} />}
