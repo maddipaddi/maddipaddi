@@ -3,7 +3,7 @@ import { Link } from "react-router";
 export default function ProjectCard({ title, imageSrc, alt, description, to }) {
   return (
     <div className="w-full max-w-xs perspective p-2 mx-auto ">
-      <div className="relative w-full h-48 transition-transform duration-700 transform-style-preserve-3d group hover:rotate-y-180">
+      <div className="relative w-full h-50 transition-transform duration-700 transform-style-preserve-3d group hover:rotate-y-180">
         {/* Front Side */}
         <div className=" absolute inset-0 border-2 border-accent-gold rounded-lg shadow-md flex flex-col items-center justify-center backface-hidden px-4  bg-bookshelf-border max">
           <div className="max-h-32">

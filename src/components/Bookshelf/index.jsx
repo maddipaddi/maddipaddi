@@ -9,7 +9,7 @@ export default function Bookshelf() {
     <article className="mx-auto font-heading text-2xl font-medium tracking-wide px-2">
       <h1 className="text-center">Hi! I'm Maddie, a front-end developer.</h1>
       <p className="text-center ">Browse the bookshelf to learn more.</p>
-      <div className="grid gap-y-8 p-8 mt-6 bg-primary rounded-lg shadow-2xl max-w-md md:max-w-2xl xl:max-w-7xl border-b-6 border-bookshelf-border">
+      <div className="grid gap-y-8 p-8 mt-6 bg-primary rounded-lg md:max-w-3xl xl:max-w-7xl border-b-6 border-bookshelf-border">
         {/* Shelf 1 */}
         <div className="bg-secondary grid grid-cols-2 md:grid-cols-4 md:grid-rows-1 border-t-6 border-b-2 border-bookshelf-border">
           <img
