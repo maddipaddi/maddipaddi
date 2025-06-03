@@ -71,7 +71,7 @@ export default function SingleProjectPage() {
             not support the video tag.
           </video>
           <figcaption className="mt-2 text-center">
-            Click-through demo of the Holidaze project
+            Click-through demo of the project
           </figcaption>
         </figure>
       </div>
