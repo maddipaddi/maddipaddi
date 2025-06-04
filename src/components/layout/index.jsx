@@ -6,7 +6,7 @@ export default function Layout() {
   return (
     <>
       <Header />
-      <main className="flex flex-col flex-grow mt-12">
+      <main className="flex flex-col flex-grow">
         <Outlet />
       </main>
       <Footer />

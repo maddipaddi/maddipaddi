@@ -6,7 +6,7 @@ import ClicketyCartLogo from "../assets/CC-logo.png";
 export default function Projects() {
   return (
     <article className="px-2 md:px-8 lg:px-28">
-      <h1 className="text-3xl font-heading font-semibold mb-8 text-center">
+      <h1 className="text-3xl font-heading font-semibold mt-16 mb-8 text-center">
         All Projects
       </h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-8">

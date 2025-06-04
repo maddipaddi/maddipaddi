@@ -9,7 +9,7 @@ export default function SingleProjectPage() {
   if (!project) return <p>Project not found.</p>;
 
   return (
-    <article className="max-w-7xl mx-auto p-4 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-10 md:text-lg">
+    <article className="max-w-7xl mx-auto mt-12 p-4 md:p-8 grid grid-cols-1 md:grid-cols-3 gap-10 md:text-lg">
       <div className="bg-bookshelf-border border-2 border-accent-gold self-center p-6 rounded">
         <img
           src={project.icon}
