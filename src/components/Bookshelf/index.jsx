@@ -6,7 +6,7 @@ import ClicketyCartLogo from "../../assets/CC-logo.png";
 
 export default function Bookshelf() {
   return (
-    <div className="grid gap-y-8 p-8 mt-6 bg-primary rounded-lg md:max-w-3xl xl:max-w-7xl border-b-6 border-bookshelf-border justify-self-center">
+    <div className="grid gap-y-8 p-8 mt-6 bg-primary rounded-lg  md:max-w-3xl xl:max-w-7xl border-b-6 border-bookshelf-border justify-self-center">
       {/* Shelf 1 */}
       <div className="bg-secondary grid grid-cols-2 md:grid-cols-4 md:grid-rows-1 border-t-6 border-b-2 border-bookshelf-border">
         <img
@@ -78,10 +78,12 @@ export default function Bookshelf() {
           alt="Victorian looking gothic lantern."
           className="h-32 object-contain translate-y-3 hidden md:flex"
         />
-        <img
-          src="/assets/bookspines-2-ChatGPT.png"
+        <HoverableShelfItem
+          to="/skills"
+          imgSrc="/assets/bookspines-2-ChatGPT.png"
           alt="Old looking browntoned bookspines."
-          className="h-32 object-contain translate-y-6"
+          label="Skills"
+          translate="translate-y-8"
         />
       </div>
 
