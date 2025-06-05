@@ -69,13 +69,16 @@ export default function About() {
           <h2 className="mb-2 font-medium">Education:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 p-2">
-              <GraduationCap /> A bachelor degree in linguistics
+              <GraduationCap className="flex-shrink-0" /> A bachelor degree in
+              linguistics
             </li>
             <li className="flex gap-2 p-2">
-              <GraduationCap /> A bachelor degree in nursing
+              <GraduationCap className="flex-shrink-0" /> A bachelor degree in
+              nursing
             </li>
             <li className="flex gap-2 p-2">
-              <Laptop /> A two-year front-end development degree
+              <Laptop className="flex-shrink-0" /> A two-year front-end
+              development degree
             </li>
           </ul>
         </div>
@@ -83,31 +86,31 @@ export default function About() {
           <h2 className="mb-2 font-medium">When I'm not coding, I'm...</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 p-2">
-              <Shirt /> sewing
+              <Shirt className="flex-shrink-0" /> sewing
             </li>
             <li className="flex gap-2 p-2">
-              <Mountain /> climbing
+              <Mountain className="flex-shrink-0" /> climbing
             </li>
             <li className="flex gap-2 p-2">
-              <Dumbbell /> exercising
+              <Dumbbell className="flex-shrink-0" /> exercising
             </li>
             <li className="flex gap-2 p-2">
-              <BookCopy /> reading
+              <BookCopy className="flex-shrink-0" /> reading
             </li>
             <li className="flex gap-2 p-2">
-              <Bike /> mountain-biking
+              <Bike className="flex-shrink-0" /> mountain-biking
             </li>
             <li className="flex gap-2 p-2">
-              <TentTree /> camping
+              <TentTree className="flex-shrink-0" /> camping
             </li>
             <li className="flex gap-2 p-2">
-              <Gamepad2 /> gaming
+              <Gamepad2 className="flex-shrink-0" /> gaming
             </li>
             <li className="flex gap-2 p-2">
-              <WavesLadder /> swimming
+              <WavesLadder className="flex-shrink-0" /> swimming
             </li>
             <li className="flex gap-2 p-2">
-              <Popcorn /> binge-watching
+              <Popcorn className="flex-shrink-0" /> binge-watching
             </li>
           </ul>
         </div>
