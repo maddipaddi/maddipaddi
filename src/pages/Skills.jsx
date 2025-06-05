@@ -68,6 +68,9 @@ export default function Skills() {
             <li className="flex gap-2 items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Jest
             </li>
+            <li className="flex gap-2 items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+              Postman
+            </li>
           </ul>
         </div>
         <div className="bg-background text-black p-8 mt-8 lg:max-w-xl xl:max-w-xl">
