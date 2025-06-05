@@ -4,9 +4,12 @@
 @theme {
   --color-primary: #231b14;
   --color-secondary: #594d3c;
+  --color-tertiary: #53432e;
   --color-accent: #1f3b11;
   --color-accent-gold: #c0a36e;
   --color-background: #fff7d3;
+  --color-copy: #2b1e16;
+  --color-copy-light: #f5f3e7;
   --color-bookshelf-border: #20170f;
   --font-heading: "Montserrat", sans-serif;
   --font-accent: "Playfair Display", serif;
@@ -32,7 +35,7 @@ body,
 
 body {
   background-color: #594d3c;
-  color: #fff;
+  color: #f5f3e7;
 }
 
 .perspective {
