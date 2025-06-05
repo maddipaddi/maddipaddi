@@ -8,9 +8,9 @@ export default function Contact() {
           <h1 className="text-3xl font-heading font-semibold mt-16 mb-8 text-center">
             Contact me
           </h1>
-          <ul className="flex flex-wrap gap-2 bg-background text-black p-8 md:max-w-xl">
+          <ul className="flex flex-wrap gap-2 bg-background text-copy p-8 md:max-w-xl">
             <li className="flex flex-wrap gap-2 p-2">
-              <Mail className="flex-shrink-0" /> Email me at:{" "}
+              <Mail className="flex-shrink-0" /> Email me at:
               <span className="font-medium">madelen.sletteberg@gmail.com</span>
             </li>
             <li className="flex flex-wrap gap-2 p-2">
@@ -41,7 +41,7 @@ export default function Contact() {
           <img
             src="/assets/rotary-phone-ChatGPT.png"
             alt="Old timey dark brown rotary phone."
-            className="w-70 translate-y-16 lg:translate-y-20"
+            className="w-70 translate-y-16 lg:translate-y-20 drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
           />
         </div>
       </div>

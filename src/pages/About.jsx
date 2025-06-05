@@ -21,7 +21,7 @@ export default function About() {
           <h1 className="text-3xl font-heading font-semibold mt-16 mb-8 text-center">
             About me
           </h1>
-          <ul className="flex flex-wrap gap-2 bg-background text-black p-8 md:max-w-xl">
+          <ul className="flex flex-wrap gap-2 bg-background text-copy p-8 md:max-w-xl">
             <li className="flex gap-2 p-2">
               <CircleSmall className="flex-shrink-0" /> My name is Madelen
               (Maddie) Sletteberg
@@ -59,13 +59,13 @@ export default function About() {
           <img
             src="/assets/feminine-bust-ChatGPT.png"
             alt="Feminine, cream-colored bust."
-            className="w-70 translate-y-16 lg:translate-y-20"
+            className="w-70 translate-y-16 lg:translate-y-20 drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
           />
         </div>
       </div>
       <div className="bg-primary h-16 border-b-4 border-bookshelf-border"></div>
       <div className="flex flex-wrap justify-center mb-8 gap-8 items-center px-4">
-        <div className="bg-background text-black p-8 mt-8 lg:max-w-xl xl:max-w-lg">
+        <div className="bg-background text-copy p-8 mt-8 lg:max-w-xl xl:max-w-lg">
           <h2 className="mb-2 font-medium">Education:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 p-2">
@@ -82,7 +82,7 @@ export default function About() {
             </li>
           </ul>
         </div>
-        <div className="bg-background text-black p-8 mt-8 lg:max-w-xl xl:max-w-xl">
+        <div className="bg-background text-copy p-8 mt-8 lg:max-w-xl xl:max-w-xl">
           <h2 className="mb-2 font-medium">When I'm not coding, I'm...</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 p-2">

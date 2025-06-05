@@ -6,24 +6,24 @@ import ClicketyCartLogo from "../../assets/CC-logo.png";
 
 export default function Bookshelf() {
   return (
-    <div className="grid gap-y-8 p-8 mt-6 bg-primary rounded-lg  md:max-w-3xl xl:max-w-7xl border-b-6 border-bookshelf-border justify-self-center">
+    <div className="grid gap-y-8 p-8 mt-6 bg-primary rounded-lg sm:min-w-xl md:max-w-3xl xl:max-w-7xl border-b-6 border-bookshelf-border justify-self-center">
       {/* Shelf 1 */}
-      <div className="bg-secondary grid grid-cols-2 md:grid-cols-4 md:grid-rows-1 border-t-6 border-b-2 border-bookshelf-border">
+      <div className="bg-gradient-to-br from-secondary to-tertiary shadow-[inset_0_-4px_8px_rgba(0,0,0,0.3)] grid grid-cols-2 md:grid-cols-4 md:grid-rows-1 border-t-6 border-b-2 border-bookshelf-border">
         <img
           src="/assets/bookspines-3-ChatGPT.png"
           alt="Decorated bookspines in golden hues."
-          className="h-32 object-contain translate-y-6"
+          className="h-32 object-contain translate-y-6 drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
         <img
           src="/assets/plant-ChatGPT.png"
           alt="Hanging plant in a terracotta pot."
-          className="h-32 object-contain translate-y-10 hidden md:flex"
+          className="h-32 object-contain translate-y-10 hidden md:flex drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
 
         <img
           src="/assets/bookspines-ChatGPT.png"
           alt="Decorated bookspines in earth tones."
-          className="h-32 object-contain translate-y-6 hidden md:flex"
+          className="h-32 object-contain translate-y-6 hidden md:flex drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
         <HoverableShelfItem
           to="/about"
@@ -35,7 +35,7 @@ export default function Bookshelf() {
       </div>
 
       {/* Shelf 2 */}
-      <div className="bg-secondary grid grid-cols-1 md:grid-cols-3 border-t-6 border-b-2 border-bookshelf-border">
+      <div className="bg-gradient-to-br from-secondary to-tertiary shadow-[inset_0_-4px_8px_rgba(0,0,0,0.3)] grid grid-cols-1 md:grid-cols-3 border-t-6 border-b-2 border-r-4 border-bookshelf-border">
         <ProjectCard
           title="ClicketyCart"
           imageSrc={ClicketyCartLogo}
@@ -60,11 +60,11 @@ export default function Bookshelf() {
       </div>
 
       {/* Shelf 3 */}
-      <div className="bg-secondary grid grid-cols-2 md:grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
+      <div className="bg-gradient-to-br from-secondary to-tertiary shadow-[inset_0_-4px_8px_rgba(0,0,0,0.3)] grid grid-cols-2 md:grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
         <img
           src="/assets/microscope-ChatGPT.png"
           alt="Old tomey bronze microscope."
-          className="h-32 object-contain translate-y-4 hidden md:flex"
+          className="h-32 object-contain translate-y-4 hidden md:flex drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
         <HoverableShelfItem
           to="/resume"
@@ -76,7 +76,7 @@ export default function Bookshelf() {
         <img
           src="/assets/lantern-ChatGPT.png"
           alt="Victorian looking gothic lantern."
-          className="h-32 object-contain translate-y-3 hidden md:flex"
+          className="h-32 object-contain translate-y-3 hidden md:flex drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
         <HoverableShelfItem
           to="/skills"
@@ -88,17 +88,17 @@ export default function Bookshelf() {
       </div>
 
       {/* Shelf 4 */}
-      <div className="bg-secondary grid grid-cols-2 md:grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
+      <div className="bg-gradient-to-br from-secondary to-tertiary shadow-[inset_0_-4px_8px_rgba(0,0,0,0.3)] grid grid-cols-2 md:grid-cols-4 border-t-6 border-b-2 border-bookshelf-border">
         <img
           src="/assets/bookspines-4-ChatGPT.png"
           alt="Decorated long row of bookspines."
-          className="h-32 object-contain translate-y-6 hidden md:flex"
+          className="h-32 object-contain translate-y-6 hidden md:flex drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
 
         <img
           src="/assets/books-n-fossil-ChatGPT.png"
           alt="Books laying down with a fossil on top."
-          className="h-32 object-contain translate-y-4 hidden md:flex"
+          className="h-32 object-contain translate-y-4 hidden md:flex drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
         <HoverableShelfItem
           to="/contact"
@@ -110,7 +110,7 @@ export default function Bookshelf() {
         <img
           src="/assets/plant-3-ChatGPT.png"
           alt="Green plant in a terracotta pot."
-          className="h-32 object-contain translate-y-4"
+          className="h-32 object-contain translate-y-4 drop-shadow-[2px_4px_2px_rgba(0,0,0,0.4)]"
         />
       </div>
     </div>

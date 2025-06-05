@@ -44,7 +44,7 @@ export default function SingleProjectPage() {
         </div>
       </div>
       <div className="flex flex-wrap gap-10 md:col-span-3 max-w-xl lg:max-w-7xl mx-auto">
-        <div className="bg-background shadow-xl p-4 md:p-8 text-black flex flex-wrap gap-2 flex-[1.5] min-w-[300px] rounded">
+        <div className="bg-background shadow-xl p-4 md:p-8 text-copy flex flex-wrap gap-2 flex-[1.5] min-w-[300px] rounded">
           <div>
             <h2 className="font-bold mb-2">Tech Stack:</h2>
             <ul className="flex flex-wrap gap-3 mb-6">
@@ -78,12 +78,12 @@ export default function SingleProjectPage() {
 
       <div className="bg-bookshelf-border h-10 md:col-span-3"></div>
 
-      <div className="mx-auto bg-background p-4 md:p-8 text-black md:col-span-3 lg:col-span-1 shadow-xl rounded">
+      <div className="mx-auto bg-background p-4 md:p-8 text-copy md:col-span-3 lg:col-span-1 shadow-xl rounded">
         <h2 className="font-bold mb-2">About this project</h2>
         <p>{project.about}</p>
       </div>
 
-      <div className="bg-background p-4 md:p-8 text-black md:col-span-3 lg:col-span-2 shadow-xl rounded">
+      <div className="bg-background p-4 md:p-8 text-copy md:col-span-3 lg:col-span-2 shadow-xl rounded">
         <h2 className="font-bold mb-2">Features</h2>
         <ul className="list-disc list-inside">
           {project.features.map((feature) => (
@@ -91,7 +91,7 @@ export default function SingleProjectPage() {
           ))}
         </ul>
       </div>
-      <div className="bg-background p-4 md:p-8 text-black md:col-span-3 shadow-xl rounded">
+      <div className="bg-background p-4 md:p-8 text-copy md:col-span-3 shadow-xl rounded">
         <h2 className="font-bold mb-2">Reflection</h2>
         <p>{project.reflection}</p>
       </div>
