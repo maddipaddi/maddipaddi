@@ -50,8 +50,8 @@ export default function About() {
               problem-solving
             </li>
             <li className="flex gap-2 p-2">
-              <CircleSmall className="flex-shrink-0" /> Find great satisfaction
-              in how code can bring order to chaos
+              <CircleSmall className="flex-shrink-0" /> Love bringing order to
+              chaos with code
             </li>
           </ul>
         </div>
