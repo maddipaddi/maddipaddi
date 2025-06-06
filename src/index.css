@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #231b14;
+  --color-secondary: #594d3c;
+  --color-tertiary: #53432e;
+  --color-accent: #1f3b11;
+  --color-accent-gold: #c0a36e;
+  --color-background: #fff7d3;
+  --color-copy: #2b1e16;
+  --color-copy-light: #f5f3e7;
+  --color-bookshelf-border: #20170f;
+  --font-heading: "Montserrat", sans-serif;
+  --font-accent: "Playfair Display", serif;
+  --font-body: "Roboto", sans-serif;
+}
+
+:root {
+  font-family: "Roboto", system-ui, Helvetica, Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+body {
+  background-color: #594d3c;
+  color: #f5f3e7;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}

@@ -2,7 +2,7 @@
 
 ## Things to know about me:
 
-- My name is Madelen, but I go as Maddie. 
+- My name is Madelen, but I go as Maddie.
 - I thrive on creativity and problem-solving, and really enjoy how code can bring order to chaos.
 - I’m a somewhat silly 28-year old.
 - Pronouns she/her.
@@ -10,18 +10,18 @@
 - Norwegian living in Norway. Hip-hip-hooray for socialism and seasonal depression!
 - When I'm not buried in code, I'm likely out climbing, reading, or exploring the great outdoors with a camping or packrafting trip.
 
-### Currently studying at Noroff 
+### Currently studying at Noroff
 
 <details>
 <summary>Skills</summary>
 
 | In progress | In future |
-|------------:|-----------|
-| HTML        | Bootsrap  |
-| CSS         | Tailwind  |
-| Javascript  | React     |
-| Figma       | Svelte    |
-| Github      | and more  |
+| ----------: | --------- |
+|        HTML | Bootsrap  |
+|         CSS | Tailwind  |
+|  Javascript | React     |
+|       Figma | Svelte    |
+|      Github | and more  |
 
 </details>
 
