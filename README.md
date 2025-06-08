@@ -10,8 +10,6 @@
 - Norwegian living in Norway. Hip-hip-hooray for socialism and seasonal depression!
 - When I'm not buried in code, I'm likely out climbing, reading, or exploring the great outdoors with a camping or packrafting trip.
 
-### Currently studying at Noroff
-
 <details>
 <summary>Skills</summary>
 
