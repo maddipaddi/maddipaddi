@@ -1,4 +1,4 @@
-# 🐸 Hi, I’m @maddipaddi
+# 📖 Hi, I’m Maddie
 
 ## Things to know about me:
 
@@ -15,17 +15,22 @@
 <details>
 <summary>Skills</summary>
 
-| In progress | In future |
-| ----------: | --------- |
-|        HTML | Bootsrap  |
-|         CSS | Tailwind  |
-|  Javascript | React     |
-|       Figma | Svelte    |
-|      Github | and more  |
+| Comfortable with | In progress | In future  |
+| ---------------: | ----------- | ---------- |
+| HTML             | Git         | TypeScript |
+| CSS              | Bootsrap    | Next.js    |
+| Javascript       | Jest        | Three.js   |
+| Tailwind         | Postman     | Python     | 
+| Netlify          | Decap CMS   | and more   |
+| Github           |             |            |
+| Figma            |             |            | 
+| Vite             |             |            | 
+| VS Code          |             |            |
+| React            |             |            |
 
 </details>
 
-Check out my [portfolio](https://sletteberg.com)(WIP)🐸
+Check out my [portfolio](https://sletteberg.com)(WIP)📖
 
 <!---
 maddipaddi/maddipaddi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
