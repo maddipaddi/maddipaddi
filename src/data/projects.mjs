@@ -1,5 +1,7 @@
 import CCLogo from "../assets/CC-logo.png";
+import CCVideo from "../assets/ClicketyCart.mp4";
 import AHLogo from "../assets/AH-logo-dark.png";
+import AHVideo from "../assets/auctionhouse.mp4";
 import FHLogo from "../assets/FH-logo-dark.png";
 import FHVideo from "../assets/Fireside-Holidaze.mp4";
 
@@ -8,6 +10,7 @@ export const projects = [
     id: "clicketycart",
     title: "ClicketyCart",
     icon: CCLogo,
+    video: CCVideo,
     blurb: "An e-commerce prototype focused on accessibility and performance.",
     collab:
       "This project is a collaboration between Herman Hylland and myself (Madelen Sletteberg).",
@@ -31,6 +34,7 @@ export const projects = [
     id: "auctionhouse",
     title: "Auction House",
     icon: AHLogo,
+    video: AHVideo,
     blurb: "An online auctions app focused on buying and selling luxury items.",
     collab:
       "This project is a collaboration between Veronika Aas and myself (Madelen Sletteberg).",
