@@ -36,6 +36,9 @@ export default function Skills() {
               <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
                 Visual Studio Code
               </li>
+              <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+                Figma
+              </li>
             </ul>
           </div>
         </div>
@@ -58,9 +61,6 @@ export default function Skills() {
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Bootstrap
-            </li>
-            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              Figma
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Decap CMS
