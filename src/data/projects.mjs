@@ -26,7 +26,7 @@ export const projects = [
     ],
     techStack: ["React", "Tailwind", "Vite"],
     reflection:
-      "Here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow!",
+      "Clickety Cart was my first experience working with React, which made it both exciting and challenging. Jumping into a new framework came with a learning curve, but it also gave me a chance to start building an understanding of how component-based architecture and state management work. The teacher feedback was positive, and the only area highlighted for improvement was using TypeScript instead of JavaScript. We couldn't learn and implement that in the timeframe we had, but we found other areas to improve such as accessibility and adding JSDocs.",
     repo: "https://github.com/maddipaddi/frameworks-CA",
     live: "https://clicketycart.netlify.app",
   },
@@ -52,7 +52,7 @@ export const projects = [
     ],
     techStack: ["Vanilla JS", "Tailwind", "Vite"],
     reflection:
-      "Here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow!",
+      "This project pushed me to grow more confident working with vanilla JavaScript and gave me a deeper appreciation for the logic behind front-end functionality. While some parts of the JavaScript were challenging, they were manageable with persistence and problem-solving. Tailwind, on the other hand, was a bit of a struggle at first — I worked with Bootstrap previously, so the utility-first approach felt unfamiliar. That said, I'm really proud of the design my teammate and I created. We worked hard to craft a layout and visual style that gave off a sense of luxury, taking inspiration from brands like Louis Vuitton, and I think we pulled it off well. After delievering the project, we received feedback from our teacher, who suggested that we could break down the code into smaller components for better maintainability and readability. This is something we have worked on. We have yet to abstract the API calls into more reuasable functions, this is something to improve in the future.",
     repo: "https://github.com/maddipaddi/FED2-semester-project-2",
     live: "https://luxauctionhouse.netlify.app",
   },
@@ -77,7 +77,7 @@ export const projects = [
     ],
     techStack: ["React", "Tailwind", "Vite"],
     reflection:
-      "Here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow - here are all my reflections wow!",
+      "This project was a great opportunity to deepen my understanding of React and get much more comfortable using Tailwind for styling. Working on a full-featured application like this gave me hands-on experience with state management, dynamic components, and building responsive layouts. While it was sometimes a challenge to learn React while building the project at the same time, the process helped reinforce core concepts through practical use. Looking back, I'm happy with how much I was able to implement, and I've come away with stronger technical skills and more confidence in tackling larger front-end projects.",
     repo: "https://github.com/maddipaddi/Fireside-Holidaze",
     live: "https://fireside-holidaze.netlify.app",
   },
