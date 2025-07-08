@@ -91,10 +91,6 @@ export default function SingleProjectPage() {
           ))}
         </ul>
       </div>
-      <div className="bg-background p-4 md:p-8 text-copy md:col-span-3 lg:col-span-2 lg:col-start-2 shadow-xl rounded">
-        <h2 className="font-bold mb-2">Reflection</h2>
-        <p>{project.reflection}</p>
-      </div>
     </article>
   );
 }
