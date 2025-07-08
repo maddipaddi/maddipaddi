@@ -21,7 +21,7 @@ export default function Resume() {
             </p>
             <div className="justify-center flex gap-4 flex-wrap">
               <a
-                href="/assets/Madelen_Sletteberg_Norsk.pdf"
+                href="/assets/CV_norsk.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" bg-accent text-white px-4 py-2 rounded shadow-lg cursor-pointer hover:bg-primary font-medium active:scale-95"
@@ -29,7 +29,7 @@ export default function Resume() {
                 View resume (NO)
               </a>
               <a
-                href="/assets/Madelen_Sletteberg_English.pdf"
+                href="/assets/CV_English.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-accent text-white px-4 py-2 rounded shadow-lg cursor-pointer hover:bg-primary font-medium active:scale-95"
@@ -53,16 +53,16 @@ export default function Resume() {
           <h2 className="mb-2 font-medium">Education:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 p-2">
-              <GraduationCap className="flex-shrink-0" /> Bachelor in English
-              Language and Communication with Spanish (2015-2018)
+              <Laptop className="flex-shrink-0" /> A two-year front-end
+              development degree (2023-2025)
             </li>
             <li className="flex gap-2 p-2">
               <GraduationCap className="flex-shrink-0" /> Bachelor in nursing
               (2018-2021)
             </li>
             <li className="flex gap-2 p-2">
-              <Laptop className="flex-shrink-0" /> A two-year front-end
-              development degree (2023-2025)
+              <GraduationCap className="flex-shrink-0" /> Bachelor in English
+              Language and Communication with Spanish (2015-2018)
             </li>
           </ul>
         </div>
@@ -79,11 +79,11 @@ export default function Resume() {
             </li>
             <li className="flex gap-2 p-2">
               <BrushCleaning className="flex-shrink-0" /> Cleaning personell at
-              ISS Facility Services AS
+              ISS Facility Services AS (2021-2022)
             </li>
             <li className="flex gap-2 p-2">
               <Hospital className="flex-shrink-0" /> Nursing assistant at
-              Lillehammer Hospital
+              Lillehammer Hospital (2020-2021)
             </li>
           </ul>
         </div>
