@@ -53,8 +53,8 @@ export default function Resume() {
           <h2 className="mb-2 font-medium">Education:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 p-2">
-              <Laptop className="flex-shrink-0" /> A two-year front-end
-              development degree (2023-2025)
+              <Laptop className="flex-shrink-0" /> Higher professional degree in
+              front-end development (2023-2025)
             </li>
             <li className="flex gap-2 p-2">
               <GraduationCap className="flex-shrink-0" /> Bachelor in nursing
