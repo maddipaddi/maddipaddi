@@ -41,7 +41,7 @@ export const projects = [
     welcome:
       "Auction House is an exclusive platform for buying and selling luxury items, specializing in watches, handbags, bags, and jewelry. Our mission is to create a refined, user-friendly experience that matches the elegance of the products featured on our platform.",
     about:
-      "This project is the frontend implementation of Auction House, built on an existing backend API provided by Noroff. The API handles user management, auction listings, and bidding functionality, while this frontend will bring the user interface to life with a luxurious, responsive design.",
+      "This project is the frontend implementation of Auction House, built on an existing backend API provided by Noroff. The API handles user management, auction listings, and bidding functionality, while this frontend brings the user interface to life with a luxurious, responsive design.",
     features: [
       "Users can register using an email address ending in @stud.noroff.no.",
       "As a registered user, you can update your profile banner, profile picture, and bio.",

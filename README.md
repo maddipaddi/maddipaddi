@@ -15,20 +15,20 @@
 
 | Comfortable with | In progress | In future  |
 | ---------------: | ----------- | ---------- |
-| HTML             | Git         | TypeScript |
-| CSS              | Bootsrap    | Next.js    |
-| Javascript       | Jest        | Three.js   |
-| Tailwind         | Postman     | Python     | 
-| Netlify          | Decap CMS   | and more   |
-| Github           |             |            |
-| Figma            |             |            | 
-| Vite             |             |            | 
-| VS Code          |             |            |
-| React            |             |            |
+|             HTML | Git         | TypeScript |
+|              CSS | Bootsrap    | Next.js    |
+|       Javascript | Jest        | Three.js   |
+|         Tailwind | Postman     | Python     |
+|          Netlify | Decap CMS   | and more   |
+|           Github |             |            |
+|            Figma |             |            |
+|             Vite |             |            |
+|          VS Code |             |            |
+|            React |             |            |
 
 </details>
 
-Check out my [portfolio](https://sletteberg.com)(WIP)📖
+Check out my [portfolio](https://sletteberg.com)📖
 
 <!---
 maddipaddi/maddipaddi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

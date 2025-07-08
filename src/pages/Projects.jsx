@@ -9,7 +9,7 @@ export default function Projects() {
       <h1 className="text-3xl font-heading font-semibold mt-16 mb-8 text-center">
         All Projects
       </h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 mb-8">
         <ProjectCard
           title="ClicketyCart"
           imageSrc={ClicketyCartLogo}
@@ -30,41 +30,6 @@ export default function Projects() {
           alt="Log cabin with a smoking pipe over the words 'Holidaze'."
           description="An airbnb-esque prototype built around hosting and renting cabins."
           to="/projects/holidaze"
-        />
-        <ProjectCard
-          title="ClicketyCart"
-          imageSrc={ClicketyCartLogo}
-          alt="Shopping cart racing over the words 'Clickety Cart'"
-          description="An e-commerce prototype focused on accessibility and performance."
-          to="/projects/clicketycart"
-        />
-        <ProjectCard
-          title="Auction House"
-          imageSrc={AuctionHouseLogo}
-          alt="Diamond shaped logo with the words 'Auction House' to the right."
-          description="An online auctions app focused on buying and selling luxury items."
-          to="/projects/auctionhouse"
-        />
-        <ProjectCard
-          title="Holidaze"
-          imageSrc={HolidazeLogo}
-          alt="Log cabin with a smoking pipe over the words 'Holidaze'."
-          description="An airbnb-esque prototype built around hosting and renting cabins."
-          to="/projects/holidaze"
-        />
-        <ProjectCard
-          title="ClicketyCart"
-          imageSrc={ClicketyCartLogo}
-          alt="Shopping cart racing over the words 'Clickety Cart'"
-          description="An e-commerce prototype focused on accessibility and performance."
-          to="/projects/clicketycart"
-        />
-        <ProjectCard
-          title="Auction House"
-          imageSrc={AuctionHouseLogo}
-          alt="Diamond shaped logo with the words 'Auction House' to the right."
-          description="An online auctions app focused on buying and selling luxury items."
-          to="/projects/auctionhouse"
         />
       </div>
     </article>
