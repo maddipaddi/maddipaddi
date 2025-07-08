@@ -43,7 +43,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="md:min-w-lg px-4">
+        <div className="md:min-w-xl px-4">
           <img
             src="/assets/bookspines-2-ChatGPT.png"
             alt="Old looking browntoned bookspines."
@@ -53,7 +53,7 @@ export default function Skills() {
       </div>
       <div className="bg-primary h-16 border-b-4 border-bookshelf-border"></div>
       <div className="flex flex-wrap justify-center mb-8 gap-8 items-center px-4">
-        <div className="self-stretch flex-grow bg-background text-copy p-8 mt-8 lg:max-w-xl xl:max-w-lg">
+        <div className="self-stretch flex-grow bg-background text-copy p-8 mt-8 md:max-w-xl">
           <h2 className="mb-2 font-medium text-lg">Some experience with:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
@@ -73,7 +73,7 @@ export default function Skills() {
             </li>
           </ul>
         </div>
-        <div className="bg-background text-copy p-8 mt-8 lg:max-w-xl xl:max-w-xl">
+        <div className="bg-background text-copy p-8 mt-8 md:max-w-xl">
           <h2 className="mb-2 font-medium text-lg">Interested in learning:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
