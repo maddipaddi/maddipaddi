@@ -29,7 +29,7 @@ export default function About() {
               Sletteberg
             </li>
             <li className="flex gap-2 p-2">
-              <CircleSmall className="flex-shrink-0" /> 28 years old - young
+              <CircleSmall className="flex-shrink-0" /> 29 years old - young
               ish, neck injuries now come from sleeping wrong rather than
               headbanging
             </li>

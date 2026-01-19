@@ -19,13 +19,22 @@ export default function Skills() {
                 JavaScript
               </li>
               <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+                TypeScript
+              </li>
+              <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
                 React
               </li>
               <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
                 Tailwind
               </li>
               <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+                Bootstrap
+              </li>
+              <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
                 Vite
+              </li>
+              <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+                Node.js
               </li>
               <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
                 GitHub
@@ -38,6 +47,12 @@ export default function Skills() {
               </li>
               <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
                 Figma
+              </li>
+              <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+                Git
+              </li>
+              <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+                Blender
               </li>
             </ul>
           </div>
@@ -57,12 +72,6 @@ export default function Skills() {
           <h2 className="mb-2 font-medium text-lg">Some experience with:</h2>
           <ul className="flex flex-wrap gap-2">
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              Git
-            </li>
-            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              Bootstrap
-            </li>
-            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Decap CMS
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
@@ -80,22 +89,19 @@ export default function Skills() {
               Next.js
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              TypeScript
-            </li>
-            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Python
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              Storybook
+              C#
+            </li>
+            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+              Unity
+            </li>
+            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
+              React Native
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Testing Library / Vitest
-            </li>
-            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              GSAP
-            </li>
-            <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
-              Framer Motion
             </li>
             <li className="flex gap-2 font-medium items-center px-4 py-1 rounded-md bg-gradient-to-br from-[#e5dcc5] to-[#c2a983] text-[#2b1e12] shadow-md border border-[#a88c6f]">
               Three.js
