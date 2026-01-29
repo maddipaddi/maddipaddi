@@ -9,14 +9,7 @@ export default function Projects() {
       <h1 className="text-3xl font-heading font-semibold mt-16 mb-8 text-center">
         All Projects
       </h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 mb-8">
-        <ProjectCard
-          title="ClicketyCart"
-          imageSrc={ClicketyCartLogo}
-          alt="Shopping cart racing over the words 'Clickety Cart'"
-          description="An e-commerce prototype focused on accessibility and performance."
-          to="/projects/clicketycart"
-        />
+      <div className="grid md:grid-cols-2 mb-8 max-w-5xl mx-auto">
         <ProjectCard
           title="Auction House"
           imageSrc={AuctionHouseLogo}

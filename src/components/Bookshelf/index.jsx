@@ -35,14 +35,7 @@ export default function Bookshelf() {
       </div>
 
       {/* Shelf 2 */}
-      <div className="bg-gradient-to-br from-secondary to-tertiary shadow-[inset_0_-4px_8px_rgba(0,0,0,0.3)] grid grid-cols-1 md:grid-cols-3 border-t-6 border-b-2 border-r-4 border-bookshelf-border">
-        <ProjectCard
-          title="ClicketyCart"
-          imageSrc={ClicketyCartLogo}
-          alt="Shopping cart racing over the words 'Clickety Cart'"
-          description="An e-commerce prototype focused on accessibility and performance."
-          to="/projects/clicketycart"
-        />
+      <div className="bg-gradient-to-br from-secondary to-tertiary shadow-[inset_0_-4px_8px_rgba(0,0,0,0.3)] grid grid-cols-1 md:grid-cols-2 border-t-6 border-b-2 border-r-4 border-bookshelf-border">
         <ProjectCard
           title="Auction House"
           imageSrc={AuctionHouseLogo}
